@@ -1,0 +1,107 @@
+[data-role=header] {
+    padding: 0;
+    width: 100%;
+    height:auto;
+    border: none;
+}
+
+[data-role=header] #header-menu-icon {
+    display: inline-block;
+    position: absolute;
+    width: 58px;
+    left: 8px;
+    top: 12px;
+}
+
+[data-role=header] #header-search-icon {
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 7px;
+    top: 11px;
+}
+
+.ui-bar-a { background-color: #ea0506;}
+[data-role=header] .header-title {
+    margin: 0 auto;
+    padding: 12px 0 10px 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13pt;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -0.025;
+    font-weight: 500;
+    max-width: 220px;
+    color: #FFF;
+}
+
+[data-role=panel][data-theme=a] {
+    background: #ea0506;
+    border-right: 1px solid #ea0506;
+    box-shadow: none;
+}
+
+#myNavigationPanel .ui-listview {}
+#myNavigationPanel .ui-listview>li>a.ui-btn {font-size: 14px!important;}
+
+#mainNavigation ul>li>a.ui-btn{
+    background-color: #cc3333;
+    border-color: #dc3838;
+    color: #FFF;
+    text-shadow: none;
+    font-size: 12px!important;
+}
+.fullwidth {
+    width: 110% !important;
+    width: calc(100% + 32px) !important;
+    width: -webkit-calc(100% + 32px) !important;
+    margin-left: -16px !important;
+}
+.clearfix {clear:both;}
+#mainPageContent {border: 10px solid #f9f9f9; text-transform: none; }
+#mainPageContent .ui-listview>li { border: 5px solid #FFF; margin-bottom: 5px;}
+#mainPageContent .ui-listview>li:last-child {margin-bottom: 0px;}
+#mainPageContent .ui-listview>li>a.ui-btn { border-width: 0;}
+#mainPageContent .ui-listview>li h2 {margin: .15em 0;}
+#mainPageContent .ui-listview>li p {margin: .3em 0;}
+#mainPageContent .ui-listview>.ui-li-has-thumb>.ui-btn {min-height: auto;}
+
+.ui-page-theme-a #mainPageContent .ui-btn {background-color: #FFF;}
+
+.luke-author {
+    width: 110% !important;
+    width: calc(100% + 32px) !important;
+    width: -webkit-calc(100% + 32px) !important;
+    margin: -16px auto -16px -16px;
+    text-align: center;
+    position: relative;
+}
+
+.align-left-relative h3 {
+    font-size: 22px;
+    line-height: 1.25;
+    text-transform: none;
+    text-align: center !important;
+}
+[data-role="content"] p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: initial;
+}
+
+.img-border {
+    border: 3px solid #404040;
+    box-sizing: border-box;
+}
+[data-role="footer"] {
+    background-color: #e44349!important;
+    text-shadow: none;
+}
+[data-role="footer"] p {
+  text-align: center;
+  color: #FFF;
+  font-size: 12px;
+  padding: 10px;
+  text-shadow: none;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <!-- Include jQuery Mobile stylesheets -->
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+        <title>Hello World</title>
+    </head>
+    <body>
+
+      <!-- Page-1 Code Begins -->
+      <div data-role="page" id="home">
+        <!-- Left Navigation Code Begins -->
+        <div data-role="panel" id="myNavigationPanel" data-theme="a">
+          <ul data-role="listview">
+            <li data-role="list-divider">All Sections</li>
+            <li><a href="index.html" data-transition="flip">TOP NEWS STORIES</a></li>
+            <li><a href="#">LATEST NEWS</a></li>
+            <li><a href="#">ENTERTAINMENT</a></li>
+            <li><a href="#">Most Popular</a></li>
+            <li><a href="#">Television Highlights</a></li>
+            <li><a href="#">Times News - Radio</a></li>
+          </ul>
+        </div>
+        <!-- Left Navigation Code Ends -->
+
+        <div data-role="header" data-tap-toggle="false" data-theme="a" role="banner" class="ui-header ui-bar-a">
+          <!-- Logo section -->
+          <a href="#myNavigationPanel" data-role="none" class="ui-btn-left"><img src="img/menu-icon.png" alt="sidebar" id="header-menu-icon"></a>
+          <h1 class="header-title ui-title" role="heading" aria-level="1">THE TIMES OF INDIA</h1>
+          <a href="#sidebar-right" data-role="none" id="a-right-sidebar" class="ui-btn-right"><img src="img/right-menu-icon.png" alt="sidebar" id="header-search-icon"></a>
+          <!-- Main Navigation section -->
+          <div data-role="navbar" id="mainNavigation">
+             <ul>
+               <li><a href="#">TOP NEWS</a></li>
+               <li><a href="#">BRIEFS</a></li>
+               <li><a href="#">TRENDING</a></li>
+               <li><a href="#">LATEST</a></li>
+             </ul>
+          </div>
+	      </div>
+        <!-- Content Code Section Begins -->
+        <div data-role="main" class="ui-content clearfix" id="mainPageContent">
+          <ul data-role="listview" class="page-content-list">
+            <li>
+              <a href="sub_page.html" data-transition="flip">
+              <img src="img/assets/thumb-s-1.jpg" class="img-border">
+              <h2>'Start-up India': New tax regime for startups, Arun Jaitley says</h2>
+              <p>The government on Saturday said that it will put in place a new tax regime for startups as it looks to unshackle them from the regulatory regime for large companies.</p>
+              </a>
+            </li>
+            <li>
+              <a href="sub_page.html" data-transition="flip">
+              <img src="img/assets/thumb-s-1.jpg" class="img-border">
+              <h2>'Start-up India': New tax regime for startups, Arun Jaitley says</h2>
+              <p>The government on Saturday said that it will put in place a new tax regime for startups as it looks to unshackle them from the regulatory regime for large companies.</p>
+              </a>
+            </li>
+            <li>
+              <a href="sub_page.html" data-transition="flip">
+              <img src="img/assets/thumb-s-1.jpg" class="img-border">
+              <h2>'Start-up India': New tax regime for startups, Arun Jaitley says</h2>
+              <p>The government on Saturday said that it will put in place a new tax regime for startups as it looks to unshackle them from the regulatory regime for large companies.</p>
+              </a>
+            </li>
+            <li>
+              <a href="sub_page.html" data-transition="flip">
+              <img src="img/assets/thumb-s-1.jpg" class="img-border">
+              <h2>'Start-up India': New tax regime for startups, Arun Jaitley says</h2>
+              <p>The government on Saturday said that it will put in place a new tax regime for startups as it looks to unshackle them from the regulatory regime for large companies.</p>
+              </a>
+            </li>
+            <li>
+              <a href="sub_page.html" data-transition="flip">
+              <img src="img/assets/thumb-s-1.jpg" class="img-border">
+              <h2>'Start-up India': New tax regime for startups, Arun Jaitley says</h2>
+              <p>The government on Saturday said that it will put in place a new tax regime for startups as it looks to unshackle them from the regulatory regime for large companies.</p>
+              </a>
+            </li>
+            <li>
+              <a href="sub_page.html" data-transition="flip">
+              <img src="img/assets/thumb-s-1.jpg" class="img-border">
+              <h2>'Start-up India': New tax regime for startups, Arun Jaitley says</h2>
+              <p>The government on Saturday said that it will put in place a new tax regime for startups as it looks to unshackle them from the regulatory regime for large companies.</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Content Code Section Begins -->
+        <div data-role="footer">
+          <p>Copyright © Times Syndication Service</p>
+        </div>
+
+      </div>
+      <!-- Page-1 Code Ends -->
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+        <!-- Include the jQuery library -->
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <!-- Include the jQuery Mobile library -->
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    </body>
+</html>
